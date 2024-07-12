@@ -1,0 +1,51 @@
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin:2cm;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .re {
+            text-align: center;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            max-width: 600px; /* Adjust max-width as needed */
+            width: 100%;
+        }
+        .re h1 {
+            color: #2c90de;
+        }
+        .re label {
+            font-weight: bold;
+            display: inline-block;
+            width: 200px; /* Adjust width as needed */
+            text-align: right;
+            margin-right: 10px; /* Adjust spacing */
+        }
+        .re input[type="text"],
+        .re input[type="number"] {
+            width: 200px;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .re button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #15b0f3;
+            color: white;
+            cursor: pointer;
+        }
+        .re button:hover {
+            background-color: #22cbe4;
+        }
+    
